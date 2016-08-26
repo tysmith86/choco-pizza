@@ -1,7 +1,146 @@
-main {
-margin: 0 auto;
+.container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+header {
+  border-bottom: 10px solid grey;
+}
+
+.left {
+  position: relative;
+  display: inline-block;
+  width: 445px;
+}
+
+.right {
+  position: relative;
+  display: inline-block;
+  width: 450px;
+}
+
+#icons {
+  position: absolute;
+  float: right;
+  left: 216px;
+  bottom: 10px;
+}
+
+#icons :nth-child(6){
+  margin-right: 10px;
+}
+
+#one {
+  position: relative;
+}
+
+#print {
+  position: absolute;
+  bottom: 628px;
+  left: 850px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  color: grey;
+  margin: 0;
+}
+
+#print p {
+  display: inline-block;
+}
+
+#two {
+  font-size: 15px;
+  color: grey;
+  line-height: 1.3;
+}
+
+body {
+  font-family: 'Droid Serif', serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 10px;
+  font-family: 'Oswald', sans-serif;
+  color: grey;
+  margin-top: 0;
+}
+
+#three {
+  position: relative;
+}
+
+#list-one {
+  position: absolute;
+  /*float: left;*/
+  bottom: 80px;
+  left: 35px;
+}
+
+#list-two {
+  position: absolute;
+  bottom: 80px;
+  left: 428px;
+}
+
+ul {
+  font-size: 18px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+h3 {
+  position: absolute;
+  bottom: 50px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 40px;
+}
+
+h4 {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 footer {
-  clear: left;
+  border-top: 10px solid grey;
+  position: relative;
+}
+
+#footer {
+  position: absolute;
+  font-size: 12px;
+  width: 452px;
+  left: 85px;
+  bottom: 2px;
+}
+
+h5 {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+#van {
+padding-top: 14px;
+}
+
+button {
+  float: right;
 }
